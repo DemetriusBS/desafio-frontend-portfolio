@@ -64,6 +64,10 @@ body{
     flex-direction: column;
 }
 
+.hero-section__btn:hover{
+    background-color: #5FB4A2;
+}
+
 .hero-section__text{
     width: 390px;
     height: 200px;
@@ -186,6 +190,11 @@ body{
 
     width: 1110px;
     height: 84px;
+}
+
+.contato-section button:hover{
+    background: #33323D;
+    color: #FFF;
 }
 
 .contato-section__txt{

@@ -106,6 +106,7 @@ body{
 .conj-inputs{
     display: flex;
     flex-direction: column;
+    
 }
 
 .input-container{
@@ -157,6 +158,10 @@ body{
     height: 48px;
 
     background: #203A4C;
+}
+
+.form-section button:hover{
+    background-color: #5FB4A2;
 }
 
 /* Footer */

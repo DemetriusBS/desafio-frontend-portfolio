@@ -225,6 +225,11 @@ body{
     height: 84px;
 }
 
+.contato-section button:hover{
+    background: #33323D;
+    color: #FFF;
+}
+
 .contato-section__txt{
     width: 367px;
     height: 84px;
