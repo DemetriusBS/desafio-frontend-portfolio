@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FAFAFA;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+
+.header{
+    width: 1110px;
+    height: 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.header__ul{
+    display: flex;
+
+    list-style: none;
+}
+
+.header__li{
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.links-menu{
+    text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero-section{
+    width: 1110px;
+    height: 500px;
+    background: #FFEFEC;
+
+    background-image:url('../../../assets/portfolio/insure/image-insure-hero.jpg');
+    background-size: cover;
+}
+
+/* Manage */
+
+.two-contents{
+    display: flex;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 350px;
+    height: 498px;
+
+    
+}
+
+.aside__title{
+    font-size: 40px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.aside__txt{
+    width: 350;
+    height: 120px;
+
+    font-family: Public Sans;
+    font-weight: 400;
+    line-height: 30px;
+
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.aside__infos{
+    font-family: Public Sans;
+    font-weight: 700;
+    color: #5FB4A2;
+}
+
+.aside__btn{
+    all: unset;
+    box-sizing: border-box;
+
+    width: 178px;
+    height: 48px;
+
+    border: 1px solid #33323D;
+
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #33323D;
+
+    padding: 17px 60px;
+}
+
+/* Main Section */
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section__projeto{
+    width: 635px;
+    height: 250px;
+}
+
+.main-section__title{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+}
+
+.main-section__txt{
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.main-section__preview{
+    width: 635px;
+    height: 902px;
+}
+
+.main-section-preview__title{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+}
+
+.main-section__first-image{
+    width: 635px;
+}
+
+/* Links Section */
+
+.links-section{
+    width: 1110px;
+    height: 1px;
+    background: #33323D;
+    mix-blend-mode: normal;
+}
+
+.links-section__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1110px;
+    height: 150px;
+    border-top: 1px solid #33323D;
+}
+
+
+.links-section-div__left{
+    display: flex;
+    align-items: center;
+}
+
+.links-section__div__right{
+    display: flex;
+    align-items: center;
+}
+
+.link-seta{
+    width: 8px;
+    height: 16px;
+}
+
+.links-section__title{
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: -0.285714px;
+    color: #33323D;
+}
+
+.links-section__txt{
+    font-family: Public Sans;
+    font-weight: 400;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+/* Contato Section */
+
+.contato-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1110px;
+    height: 84px;
+}
+
+.contato-section__txt{
+    width: 367px;
+    height: 84px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.contato-section__btn{
+    all: unset;
+    box-sizing: border-box;
+
+    width: 168px;
+    height: 48px;
+
+    border: 1px solid #33323D;
+
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    color: #33323D;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    padding: 17px 50px;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+
+    width: 1349px;
+    height: 80px;
+
+    background: #33323D;
+}
+
+.footer-content{
+    width: 1110px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content__img{
+    width: 61px;
+    height: 32px;
+}
+
+.footer__ul{
+    display: flex;
+
+    list-style: none;
+}
+
+.footer__li{
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+.footer-imgs{
+    width: 25px;
+    height: 24px;
+}
+
+.img-ul{
+    display: flex;
+    align-items: center;
+}

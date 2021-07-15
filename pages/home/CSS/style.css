@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FAFAFA;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+
+.header{
+    width: 1110px;
+    height: 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.header__ul{
+    display: flex;
+
+    list-style: none;
+}
+
+.header__li{
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.links-menu{
+   text-decoration: none;
+}
+
+/* Hero Section */
+
+.hero-section{
+   background-image:url('../../../assets/home/image-homepage-hero.jpg');
+   background-size: cover;
+   width: 1110px;
+   height: 600px;
+}
+
+.hero-section__apresentacao{
+    width: 445px;
+    height: 357px;
+    background-color:#FFF;
+    position: absolute;
+    bottom: -65px; left: 120px;
+}
+
+.hero-section__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section__text{
+    width: 390px;
+    height: 200px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323D;
+}
+
+.hero-section__conteudo-img{
+    width: 48px;
+    height: 48px;
+    background-color: #1D3444;
+}
+
+.hero-section__img{
+    padding: 18px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.hero-section__btn{
+    all: unset;
+    box-sizing: border-box;
+
+    display: flex;
+
+    width: 200px;
+    height: 48px;
+    background: #203A4C;
+}
+
+.hero-section__sobre-mim{
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+
+    padding: 17px 34px;
+}
+
+/* Sobre */
+
+.sobre-section{
+    display: flex;
+
+    width: 1110px;
+    height: 601px;
+}
+
+.sobre-section__img{
+    width: 540px;
+    height: 600px;
+}
+
+.sobre-txt-and-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-section__text{
+    display: flex;
+    flex-direction: column;
+    
+    width: 430px;
+    height: 601px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #33323D;
+}
+
+.sobre-section__sobre-mim{
+    width: 430px;
+    height: 360px;
+
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    justify-content: left;
+    color: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.sobre-section__btn{
+    all: unset;
+    box-sizing: border-box;
+
+    width: 204px;
+    height: 48px;
+
+    border: 1px solid #33323D;
+    box-sizing: border-box;
+}
+
+.sobre-section__btn-txt{
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    color: #33323D;
+    letter-spacing: 2px;
+
+    padding: 17px 26px;
+}
+
+/*Contato Section */
+
+.contato-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1110px;
+    height: 84px;
+}
+
+.contato-section__txt{
+    width: 367px;
+    height: 84px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+}
+
+.contato-section__btn{
+    all: unset;
+    box-sizing: border-box;
+
+    width: 168px;
+    height: 48px;
+
+    border: 1px solid #33323D;
+
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    color: #33323D;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    padding: 17px 50px;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+
+    width: 1349px;
+    height: 80px;
+
+    background: #33323D;
+}
+
+.footer-content{
+    width: 1110px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content__img{
+    width: 61px;
+    height: 32px;
+}
+
+.footer__ul{
+    display: flex;
+
+    list-style: none;
+}
+
+.footer__li{
+    font-family: Public Sans;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+.footer-imgs{
+    width: 25px;
+    height: 24px;
+}
+
+.img-ul{
+    display: flex;
+    align-items: center;
+}
